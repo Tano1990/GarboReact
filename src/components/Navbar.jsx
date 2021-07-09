@@ -1,5 +1,6 @@
 //import react from 'react'
 import * as ReactBootStrap from "react-bootstrap";
+import CartWidget from "./CartWidget";
 export default function Navbar(){
 return(
 <>
@@ -17,10 +18,10 @@ return(
       </ReactBootStrap.NavDropdown>
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
-      <ReactBootStrap.Nav.Item className="text-warning mr-4" href="#deets">ENVIOS</ReactBootStrap.Nav.Item>
-      <ReactBootStrap.Nav.Item className="text-warning mr-4" eventKey={2} href="#memes">CONTACTO</ReactBootStrap.Nav.Item>
+      <ReactBootStrap.Nav.Item className="text-warning mr-3" href="#deets">ENVIOS</ReactBootStrap.Nav.Item>
+      <ReactBootStrap.Nav.Item className="text-warning mr-2" eventKey={2} href="#memes">CONTACTO</ReactBootStrap.Nav.Item>
     </ReactBootStrap.Nav>
-    <ReactBootStrap.Nav.Item className="text-warning" bg="dark" href="#pricing">CARRITO</ReactBootStrap.Nav.Item>
+    <ReactBootStrap.Nav.Item className="mt-2" href="#pricing"><CartWidget/></ReactBootStrap.Nav.Item>
   </ReactBootStrap.Navbar.Collapse>
  </ReactBootStrap.Navbar>
 </>
