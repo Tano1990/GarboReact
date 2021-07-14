@@ -9,7 +9,7 @@ return(
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
     <ReactBootStrap.Nav className="mr-auto">
-        <ReactBootStrap.NavDropdown title="PRODUCTOS" id="collasible-nav-dropdown">
+        <ReactBootStrap.NavDropdown title={<span className="text-warning">PRODUCTOS</span>} id="collasible-nav-dropdown">
         <ReactBootStrap.NavDropdown.Item href="#action/3.1">Difusores</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#action/3.2">Velas Aromáticas</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="#action/3.3">Shampoos y Acondicionadores Sólidos</ReactBootStrap.NavDropdown.Item>
