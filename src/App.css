@@ -35,3 +35,18 @@ background-color: #c91ea4
     transform: rotate(360deg);
   }
 }
+
+.foto{
+  width: 200px;
+  height: auto;
+ }
+
+ .contenedor{
+   width: 250px;
+   height: 250px;
+   margin-bottom: 250px;
+   display: flex;
+   flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+ }

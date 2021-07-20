@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react"
 import "./ItemCount.css"
 export default function ItemCount(retrieve){
-    const [Count,setCount]=useState(0);
+    const [Count,setCount]=useState(1);
     
     const mas=()=>{
         if(Count<retrieve.stock){
@@ -10,7 +10,7 @@ export default function ItemCount(retrieve){
         }
     }
     const menos=()=>{
-        if(Count!=0){
+        if(Count!=1){
             setCount(Count-1);
         }
     }
