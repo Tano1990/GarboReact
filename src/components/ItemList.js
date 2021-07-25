@@ -1,8 +1,11 @@
 import React from "react"
 import Item from "./Item";
+import { useParams } from "react-router";
 import { useEffect,useState } from "react";
 export default function ItemList(){
     const [products,setProducts]=useState([])
+    const { categoryId } = useParams ()
+
     const getProducts = async () =>{
         let config={
             method:'GET',
@@ -28,10 +31,9 @@ useEffect(()=>{
     simularBd()
 },[])
     return(
-            <div>{products.map((p)=>{
-                console.log(p)
+            <div>{products.map((p,id)=>{
                 return(
-                    <Item stock={p.stock} id={p.id} price={p.price} image={p.image}/>
+                    <Item key={id} stock={p.stock} id={p.id} price={p.price} image={p.image}/>
                 )
         })}</div>
     )

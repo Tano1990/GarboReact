@@ -1,5 +1,7 @@
 import React from "react"
 import ItemCount from "./ItemCount"
+import ItemDetailContainer from "./ItemDetailContainer"
+import {Link} from "react-router-dom"
 export default function Item(props){
     console.log("soy las props de Item",props)
     function añadirCarrito (cantidadSeleccionada){
@@ -9,7 +11,7 @@ export default function Item(props){
         <div className="contenedor">
             <h1 className="titulo">{props.id}</h1>
             <h2>{props.price}</h2>
-            <img src={props.image} className="foto" alt="" />
+            <Link to={`/Producto/Detalle/${props.id}`}><img src={props.image} className="foto" alt=""/></Link>
             <ItemCount stock={props.stock} onAdd={añadirCarrito} ></ItemCount>
         </div>
     )

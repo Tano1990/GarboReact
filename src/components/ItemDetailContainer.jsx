@@ -1,9 +1,11 @@
 import React from "react"
 import Detail from "./Detail"
 import { useEffect,useState } from "react";
+import { useParams } from "react-router";
 export default function ItemDetailContainer(){
-    const [item,setItem]=useState([])
-    const getItem = async () =>{
+    const [itemDetail,setItemDetail]=useState([])
+    const {id}=useParams()
+    const getItemDetail = async () =>{
         let config={
             method:'GET',
             cache: 'default',
@@ -11,16 +13,16 @@ export default function ItemDetailContainer(){
                 'Content-Type': 'aplication/json'
             }
         }
-        let llamada = fetch(`http://localhost:4000/product/2`,config);
+        let llamada = fetch(`http://localhost:4000/product/${id}`,config);
         llamada = await llamada;
         llamada = await llamada.text();
         llamada = JSON.parse(llamada);
-        setItem(llamada);
+        setItemDetail(llamada);
     }
     const simularBd = () =>{ 
-    let promesa= new Promise((response, reject) => {
+    let promesa= new Promise((response) => {
         setTimeout(() => {
-            response(getItem());
+            response(getItemDetail());
         }, 2000);
     });
     }
@@ -29,8 +31,8 @@ useEffect(()=>{
 },[])
     return(
             <div>
-                {item.map ((e)=>(
-                    <Detail item={e}/>
+                {itemDetail.map ((e)=>(
+                    <Detail itemDetail={e}/>
                 ))
                 }
             </div>
