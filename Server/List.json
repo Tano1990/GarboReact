@@ -69,7 +69,7 @@
         "image":"https://s3-sa-east-1.amazonaws.com/peluffo/39b42091-a487-4a90-9628-15868cb7a18d.jpg",
         "title":"Teclado Generico",
         "descripcion": "este es el primer producto",
-        "categoria":"perifericos",
+        "categoria":"Solidos",
         "price": "2000"
     },
     {
@@ -78,7 +78,7 @@
         "image":"https://picodotdev.github.io/blog-bitix/2020/12/guia-basica-sobre-teclados-mecanicos-para-ordenador/images/ducky-one-2-tkl_hu354ab0c3d09f385c997f31ff19e237d6_461539_1040x0_resize_box_2.png",
         "title":"Teclado Mecanico",
         "descripcion": "este es el primer producto",
-        "categoria":"perifericos",
+        "categoria":"Solidos",
         "price": "6800"
     },
     {
@@ -87,7 +87,7 @@
         "image":"https://www.fullh4rd.com.ar/img/productos/Pics_Prod/mouse-logitech-g203-0.jpg",
         "title":"Raton logitech",
         "descripcion": "este es el primer producto",
-        "categoria":"perifericos",
+        "categoria":"Solidos",
         "price": "3800"
 
     }

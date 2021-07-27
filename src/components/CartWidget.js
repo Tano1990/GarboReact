@@ -1,4 +1,4 @@
-import Carrito from './CartWidget/Cart.png'
+import Carrito from './Images/Cart.png'
 export default function CartWidget(){
     return(
         <div>

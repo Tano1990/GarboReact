@@ -8,6 +8,7 @@ import Home from './components/Home'
 import Category from './components/Category'
 import Envios from './components/Shipment'
 import Contacto from './components/Contact';
+import Carrito from './components/Cart';
 
 function App(){
   return (
@@ -20,6 +21,8 @@ function App(){
     <Route path={'/Shipment'} exact component={Envios}></Route>
     <Route path={'/Contact'} exact component={Contacto}></Route>
     <Route path={'/Producto/Detalle/:id'} exact component={ItemDetailContainer}></Route>
+    <Route path={'/Carrito'} exact component={Carrito}></Route>
+    
     </Switch>  
     </BrowserRouter>
   );
