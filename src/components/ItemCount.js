@@ -4,7 +4,6 @@ import "./ItemCount.css"
 import { propTypes } from "react-bootstrap/esm/Image";
 export default function ItemCount(retrieve){
     const [Count,setCount]=useState(1);
-    
     const mas=()=>{
         if(Count<retrieve.stock){
         setCount(Count+1);
@@ -17,6 +16,8 @@ export default function ItemCount(retrieve){
     }
 
     function añadir(){
+        retrieve.setShow(true)
+        retrieve.setHide(false)
         retrieve.onAdd(Count)
     }
 
