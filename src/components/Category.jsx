@@ -38,9 +38,9 @@ export default function Category (){
             simularBd()
             current=false
         }
-    },[])
+    },[idCategoria])
         return (
-        <div>
+        <div className="grilla">
           {categorias.map ((e,id) =>(
               <Item key={id} stock={e.stock} id={e.id} price={e.price} image={e.image}/>
           ) 

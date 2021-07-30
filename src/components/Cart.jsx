@@ -1,8 +1,11 @@
 import React from "react"  
 export default function Carrito () { 
-        return (
+    
+    var compras = ["lechuga","papas"]
+    
+    return (
         <div>
-            Productos Agregados:
+          {compras[1]}
         </div>              
         )        
     }

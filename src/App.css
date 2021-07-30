@@ -36,8 +36,16 @@ background-color: #c91ea4
   }
 }
 
+.itemDetail{
+  
+  height: 250px;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .foto{
-  width: 200px;
+  width: 250px;
   height: auto;
  }
 
@@ -51,4 +59,7 @@ background-color: #c91ea4
     margin-left: auto;
  }
 
- 
+ .grilla{
+   display:grid;
+   grid-template-columns: 0.5fr 1fr 0.5fr; 
+ }

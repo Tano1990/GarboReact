@@ -3,92 +3,92 @@
     {
         "id":1,
         "stock":20,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/616VM20%2BAzL.__AC_SY300_SX300_QL70_ML2_.jpg",
+        "image":"https://lh3.google.com/u/0/d/1rePDNDTVP9JIL3szdHl9gvZkGYSZF2XP=w2000-h2640-iv1",
         "title":"Ryzen 5900x",
         "descripcion": "este es el primer producto",
         "categoria":"Difusores",
-        "price": "72000"
+        "price": "500"
     },
     {
         "id":2,
         "stock":20,
-        "image":"https://i.blogs.es/588c7d/amd6/original.jpeg",
+        "image":"https://lh3.google.com/u/0/d/1emNVpyvjGEnAezRNefKvuz2eZgT637cJ=w2000-h2640-iv1",
         "title":"Ryzen 5800x",
         "descripcion": "este es el primer producto",
         "categoria":"Difusores",
-        "price": "58000"
+        "price": "620"
     },
     {
         "id":3,
         "stock":20,
-        "image":"https://http2.mlstatic.com/D_NQ_NP_884972-MLA40182457265_122019-O.jpg",
+        "image":"https://lh3.google.com/u/0/d/1eBj7NK4OOB5yHWI39p6HXNbBChC0l57Z=w2000-h2640-iv1",
         "title":"Ryzen 2200G",
         "descripcion": "este es el primer producto",
-        "categoria":"Difusores",
-        "price": "22000"
+        "categoria":"Velas-Aromaticas",
+        "price": "650"
     },
     {
         "id":4,
         "stock":20,
-        "image":"https://app.contabilium.com/files/explorer/20302/Productos-Servicios/concepto-4886285.jpg",
+        "image":"https://lh3.google.com/u/0/d/1kHMGmN6EKYhQe_kct6TPZaEXz3yDY8EL=w2000-h2196-iv1",
         "title":"Radeon 6800XT",
         "descripcion": "este es el primer producto",
         "categoria":"Velas-Aromaticas",
-        "price": "280000"
+        "price": "600"
     },
     {
         "id":5,
         "stock":20,
-        "image":"https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%206900%20XT%20Phantom%20Gaming%20D%2016G%20OC(M1).png",
+        "image":"https://lh3.google.com/u/0/d/1fiC11ES9PkZjrozaXOIH1x7CJlvvQI6d=w2000-h2640-iv1",
         "title":"Radeon 6900XT",
         "descripcion": "este es el primer producto",
-        "categoria":"Velas-Aromaticas",
-        "price": "305000"
+        "categoria":"Solidos",
+        "price": "450"
     },
     {
         "id":6,
         "stock":20,
-        "image":"https://s3-sa-east-1.amazonaws.com/saasargentina/0q6tMtEfaFFScGS5Wuhn/imagen",
+        "image":"https://lh3.google.com/u/0/d/1Dcp2Um7QPXBW1RIvRy_aym8eHihGJnwm=w1920-h937-iv1",
         "title":"RTX 3080",
         "descripcion": "este es el primer producto",
-        "categoria":"Velas-Aromaticas",
-        "price": "320000"
+        "categoria":"Solidos",
+        "price": "620"
     },
     {
         "id":7,
         "stock":20,
-        "image":"https://http2.mlstatic.com/D_NQ_NP_963530-MLA46418767025_062021-O.jpg",
+        "image":"https://lh3.google.com/u/0/d/1LhfBYUDo0qTwymXvki3xTWfi-s_SeW-R=w2000-h2640-iv1",
         "title":"RTX 3070",
         "descripcion": "este es el primer producto",
-        "categoria":"Velas-Aromaticas",
-        "price": "200000"
+        "categoria":"Solidos",
+        "price": "550"
     },
     {
         "id":8,
         "stock":20,
-        "image":"https://s3-sa-east-1.amazonaws.com/peluffo/39b42091-a487-4a90-9628-15868cb7a18d.jpg",
+        "image":"https://lh3.google.com/u/0/d/1xkjAgGCSzk4iyOBmdEJxWJ8SO4KfhHv3=w2000-h1622-iv1",
         "title":"Teclado Generico",
         "descripcion": "este es el primer producto",
         "categoria":"Solidos",
-        "price": "2000"
+        "price": "650"
     },
     {
         "id":9,
         "stock":20,
-        "image":"https://picodotdev.github.io/blog-bitix/2020/12/guia-basica-sobre-teclados-mecanicos-para-ordenador/images/ducky-one-2-tkl_hu354ab0c3d09f385c997f31ff19e237d6_461539_1040x0_resize_box_2.png",
+        "image":"https://lh3.google.com/u/0/d/1afCe34qYtKkytYdzHaSyGnpvCf3-UYwz=w2000-h2640-iv1",
         "title":"Teclado Mecanico",
         "descripcion": "este es el primer producto",
-        "categoria":"Solidos",
-        "price": "6800"
+        "categoria":"Kits-Spa",
+        "price": "2100"
     },
     {
         "id":10,
         "stock":20,
-        "image":"https://www.fullh4rd.com.ar/img/productos/Pics_Prod/mouse-logitech-g203-0.jpg",
+        "image":"https://lh3.google.com/u/0/d/14QN5Pk-eZ5gKkllM-ox9u-FB4djWkXjv=w2000-h2640-iv1",
         "title":"Raton logitech",
         "descripcion": "este es el primer producto",
-        "categoria":"Solidos",
-        "price": "3800"
+        "categoria":"Kits-Spa",
+        "price": "2000"
 
     }
     

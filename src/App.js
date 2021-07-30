@@ -16,12 +16,12 @@ function App(){
          <Navbar/>
     <Switch>
     <Route path={'/'} exact component={Home}/>
-    <Route path={'/Productos'} exact component={ItemListContainer}></Route>
-    <Route path={'/Productos/:idCategoria'} exact component={Category}></Route>
-    <Route path={'/Shipment'} exact component={Envios}></Route>
-    <Route path={'/Contact'} exact component={Contacto}></Route>
-    <Route path={'/Producto/Detalle/:id'} exact component={ItemDetailContainer}></Route>
-    <Route path={'/Carrito'} exact component={Carrito}></Route>
+    <Route path={'/Productos'} exact component={ItemListContainer}/>
+    <Route path={'/Productos/:idCategoria'} exact component={Category}/>
+    <Route path={'/Shipment'} exact component={Envios}/>
+    <Route path={'/Contact'} exact component={Contacto}/>
+    <Route path={'/Producto/Detalle/:id'} exact component={ItemDetailContainer}/>
+    <Route path={'/Carrito'} exact component={Carrito}/>
     
     </Switch>  
     </BrowserRouter>
