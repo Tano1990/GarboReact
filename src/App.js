@@ -9,9 +9,10 @@ import Category from './components/Category'
 import Envios from './components/Shipment'
 import Contacto from './components/Contact';
 import Carrito from './components/Cart';
-
+import CustomProvider from './components/CustomProvider';
 function App(){
   return (
+    <CustomProvider>
     <BrowserRouter>
          <Navbar/>
     <Switch>
@@ -25,6 +26,7 @@ function App(){
     
     </Switch>  
     </BrowserRouter>
+    </CustomProvider>
   );
 }
 

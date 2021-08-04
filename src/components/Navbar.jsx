@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 import * as ReactBootStrap from "react-bootstrap";
 import CartWidget from "./CartWidget";
 import BrandWidget from "./BrandWidget";
+import cartContext from "./CartContext";
+import { useContext } from "react";
 export default function Navbar(){
+
+  const {cartCount} = useContext (cartContext)
+
 return(
 <>
  <ReactBootStrap.Navbar collapseOnSelect expand="xl" bg="info">
@@ -24,7 +29,7 @@ return(
     <Link to="/ENVIOS"><ReactBootStrap.Nav.Item className="text-warning mr-3">ENVIOS</ReactBootStrap.Nav.Item></Link>
     <Link to="/CONTACTO"><ReactBootStrap.Nav.Item className="text-warning mr-3">CONTACTO</ReactBootStrap.Nav.Item></Link>
     </ReactBootStrap.Nav>
-    <Link to="/Carrito"><ReactBootStrap.Nav.Item className="mt-2" href="#pricing"><CartWidget/></ReactBootStrap.Nav.Item></Link>
+    <Link to="/Carrito"><ReactBootStrap.Nav.Item className="mt-2, mr-3" href="#pricing">{cartCount}<CartWidget/></ReactBootStrap.Nav.Item></Link>
   </ReactBootStrap.Navbar.Collapse>
  </ReactBootStrap.Navbar>
 </>
