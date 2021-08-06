@@ -9,7 +9,7 @@ export default function ItemCount(retrieve){
 
     const [Count,setCount]=useState(1);
      
-    const {carrito, setCarrito, cartCount, setCartCount} = useContext(cartContext);
+    const {carrito, setCarrito, cartCount, setCartCount, meterProductoEnCarrito} = useContext(cartContext);
     
     const mas=()=>{
         if(Count<retrieve.itemDetail.stock){
@@ -27,16 +27,8 @@ export default function ItemCount(retrieve){
         retrieve.setShow(true)
         retrieve.setHide(false)
         retrieve.onAdd(Count)
-        setCartCount (cartCount + Count)
         let itemQty = {item:retrieve.itemDetail, qty:Count}
-        let existe = carrito.findIndex ((f)=> f.item.id == retrieve.itemDetail.id)
-        if (existe == -1){
-            carrito.push (itemQty)
-            setCarrito (carrito)
-        }else{
-            carrito[existe].qty = carrito [existe].qty+Count
-            setCarrito (carrito)
-        }
+        meterProductoEnCarrito(itemQty, Count)
     }
     
     return(
